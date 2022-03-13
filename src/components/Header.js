@@ -31,6 +31,7 @@ function Header() {
                 <span>SERIES</span>
             </a>
         </NavMenu>
+        <UserImg src="" alt="no image" />
     </Nav>
   )
 }
@@ -68,7 +69,9 @@ const NavMenu = styled.div`
     }
 `
 
+const UserImg = styled.div`
 
+`
 
 
 
