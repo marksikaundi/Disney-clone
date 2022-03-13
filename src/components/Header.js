@@ -10,6 +10,26 @@ function Header() {
                 <img src="/images/home-icon.svg" />
                 <span>HOME</span>
             </a>
+            <a>
+                <img src="/images/search-icon.svg" />
+                <span>SEARCH</span>
+            </a>
+            <a>
+                <img src="/images/watchlist-icon.svg" />
+                <span>WATCHLIST</span>
+            </a>
+            <a>
+                <img src="/images/original-icon.svg" />
+                <span>ORIGINAL</span>
+            </a>
+            <a>
+                <img src="/images/movie-icon.svg" />
+                <span>MOVIES</span>
+            </a>
+            <a>
+                <img src="/images/series-icon.svg" />
+                <span>SERIES</span>
+            </a>
         </NavMenu>
     </Nav>
   )
@@ -18,7 +38,7 @@ function Header() {
 export default Header
 
 
-
+// styled components
 const Nav = styled.nav`
     height: 70px;
     background: #090b13;
@@ -31,7 +51,21 @@ const Logo = styled.img`
 
 `
 const NavMenu = styled.div`
+    display: flex;
 
+    a {
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+
+        img {
+            height: 20px;
+        }
+        span {
+            font-size: 13px;
+            letter-spacing: 1.42px;
+        }
+    }
 `
 
 
