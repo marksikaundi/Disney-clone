@@ -38,7 +38,7 @@ function Header() {
 
 export default Header
 
-
+// ended on 2:54:18
 // styled components
 const Nav = styled.nav`
     height: 70px;
