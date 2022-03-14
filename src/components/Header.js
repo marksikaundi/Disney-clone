@@ -20,18 +20,18 @@ function Header() {
             </a>
             <a>
                 <img src="/images/original-icon.svg" />
-                <span>ORIGINAL</span>
+                <span>ORIGINALS</span>
             </a>
             <a>
                 <img src="/images/movie-icon.svg" />
                 <span>MOVIES</span>
             </a>
             <a>
-                <img src="/images/series-icon.svg" />
+                <img src="/images/series-icon.svg" alt='' />
                 <span>SERIES</span>
             </a>
         </NavMenu>
-        <UserImg src="" alt="no image" />
+        <UserImg src="https://media.istockphoto.com/photos/concept-deep-learning-gui-picture-id1244482898?k=20&m=1244482898&s=612x612&w=0&h=uKIvgL9HOraGlx0_2qbmzS3X1w4W5dzupzFZ4PrgQ2Q=" alt="no image" />
     </Nav>
   )
 }
@@ -53,11 +53,14 @@ const Logo = styled.img`
 `
 const NavMenu = styled.div`
     display: flex;
+    flex: 1;
+    margin-left: 20px;
 
     a {
         display: flex;
         align-items: center;
         padding: 0 12px;
+        cursor: pointer;
 
         img {
             height: 20px;
@@ -69,8 +72,11 @@ const NavMenu = styled.div`
     }
 `
 
-const UserImg = styled.div`
-
+const UserImg = styled.img`
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
 `
 
 
