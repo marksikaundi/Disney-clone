@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import ImageSlider from './ImageSlider'
 
 function Home() {
   return (
     <Container>
-        Home
+        <ImageSlider />
     </Container>
   )
 }
