@@ -138,3 +138,4 @@ color: rgb(249, 249, 249);
 
 `
 
+// details finished
